@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: 150px;       
+    height: auto;      
+    margin-right: 15px; 
+}
+#Menu {
+    background-color: #d6d6d6;
+    text-align: center;
+    padding: 5px;
+}
+
+.titulo {
+    font-size: 2em;
+    color: #333;
+}
+
+.subtitulo {
+    color: #555;
+}
+
+.navegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+}
+
+.navegacion ul li {
+    margin: 0 15px;
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navegacion ul li a:hover {
+    color: #f39c12;
+}
+
+#destacados {
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 8px; 
+}
+
+#destacados h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.vinilo {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.vinilo h3 {
+    color: #444;
+    margin: 0;
+}
+
+.vinilo p {
+    color: #666;
+    margin: 5px 0 0 0;
+}
+
+.calculadora {
+  background: #fff5f5;
+  padding: 20px;
+  justify-content: center;
+  
+}
+
+#pantalla {
+  width: 419px;
+  height: 70px;
+  font-size: 28px;
+  text-align: right;
+  margin-bottom: 15px;
+  border: 2px solid #333;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+button {
+  width: 65px;
+  height: 65px;
+  font-size: 22px;
+  border-radius: 8px;
+  background-color: #ddd;
+  margin: 2px;
+}

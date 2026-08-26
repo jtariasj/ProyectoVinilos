@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <section class = "calculadora">
+        <input type ="text" id="pantalla" readonly value="0"> <!--si uno quiere relacionar el html y js se debe usar el id-->
+        <br />
+
+        <div class="teclado"></div>
+        <button onclick="agregar('7')">7</button>
+        <button onclick="agregar('8')">8</button>
+        <button onclick="agregar('9')">9</button>
+        <button onclick="limpiar()">DEL</button> <!--aqui debe ser un del con una funcion aparte-->
+        <button onclick="limpiar()">AC</button>
+        <br />
+
+        <button onclick="agregar('4')">4</button>
+        <button onclick="agregar('5')">5</button>
+        <button onclick="agregar('6')">6</button>
+        <button onclick="operacion('*')">X</button>
+        <button onclick="operacion('/')">/</button>
+        <button onclick="calcular()">=</button>
+        <br />
+
+        <button onclick="agregar('1')">1</button>
+        <button onclick="agregar('2')">2</button>
+        <button onclick="agregar('3')">3</button>
+        <button onclick="operacion('+')">+</button>
+        <button onclick="operacion('-')">-</button>
+        <button onclick="agregar('0')">0</button>
+        
+        </div>
+        <script src="../js/script.js"></script> <!--Todo lo relacionado a validaciones o cosas importantes se hacen al final-->
+    </section>
+</body>
+</html>
+<!--
+<body>
+    <section class="calculadora">
+    <input type="text" id="pantalla" readonly value="0">
+
+    <div class="teclado">
+        <button onclick="agregar('7')">7</button>
+        <button onclick="agregar('8')">8</button>
+        <button onclick="agregar('9')">9</button>
+        <button onclick="limpiar()">DEL</button>
+        <button onclick="limpiar()">AC</button>
+        <br />
+
+        <button onclick="agregar('4')">4</button>
+        <button onclick="agregar('5')">5</button>
+        <button onclick="agregar('6')">6</button>
+        <button onclick="operacion('*')">X</button>
+        <button onclick="operacion('/')">/</button>
+        <br />
+
+        <button onclick="agregar('1')">1</button>
+        <button onclick="agregar('2')">2</button>
+        <button onclick="agregar('3')">3</button>
+        <button onclick="operacion('+')">+</button>
+        <button onclick="operacion('-')">-</button>
+        <br />
+        <button onclick="calcular()">=</button>
+        <button onclick="agregar('0')">0</button>
+    </div>
+</section>
+-->
